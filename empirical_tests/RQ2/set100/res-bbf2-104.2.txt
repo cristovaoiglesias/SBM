@@ -1,0 +1,1299 @@
+
+ ParticleSwarm for BBF2: 
+v_min from PS :1.7616296140151004e18
+Vmin_dist :[1.2968943500123722e18, 2.0164308733165379e18, 1.6838400393713329e18, 1.7988498519529708e18, 1.9508637315420593e18, 1.830515697511135e18, 2.0629099019965926e18, 1.8451861824477932e18, 1.8207468442803054e18, 2.0101967526016735e18, 1.795390338881049e18, 1.6602124169963681e18, 1.7439695274621394e18, 1.474551540009941e18, 1.4068090981274698e18, 1.936026767321353e18, 1.4039413459165937e18, 1.5335670296127683e18, 1.9451556811060416e18, 1.7275038768904474e18, 1.9926406698928842e18, 1.8632108130200038e18, 1.902002215863765e18, 1.8946206738189775e18, 1.821968862321457e18, 1.9850467824630528e18, 1.7743194055056532e18, 1.6730373768701312e18, 1.7735655155432965e18, 1.5560350140543235e18, 1.7502203621457943e18, 1.7876103335210179e18, 1.4831872269564836e18, 1.9356425380589548e18, 1.8853015892470592e18, 1.9402477318496366e18, 1.84205104377735e18, 1.7139403825607183e18, 2.0156838212469796e18, 2.286978184109474e18, 1.8342610388348705e18, 1.669797553680106e18, 1.6754147678195016e18, 1.7144878497630282e18, 2.0089143893122785e18, 1.704557570160375e18, 1.8402276253070423e18, 1.7485940052691105e18, 1.6477200155311017e18, 1.9657257738767875e18, 1.5902392181121006e18, 1.5614281488398147e18, 1.922674022333001e18, 1.7400154396365353e18, 1.9030151405216778e18, 2.067911120116424e18, 1.7181414645618232e18, 1.8828487988961884e18, 1.8806748687554637e18, 1.9659986561418506e18, 1.55075228989784e18, 1.8610782601733202e18, 1.677408612342074e18, 1.6806981702080957e18, 1.6812365194048998e18, 1.704652868064731e18, 1.8559551338455206e18, 1.5994771799120635e18, 1.539464535159204e18, 1.7919995284064512e18, 1.946437675929539e18, 1.916240874610735e18, 2.055158456205562e18, 1.6732248200787471e18, 1.8073532133303066e18, 1.8248787338443686e18, 1.5627924154707118e18, 1.9874642535874813e18, 1.7931700860164795e18, 1.7878354514082122e18, 1.9459588954548288e18, 1.962245250544237e18, 1.9384141397411525e18, 1.8385543178919383e18, 1.8104429437467484e18, 1.7940268198609075e18, 1.8374590428639706e18, 1.961496338097146e18, 1.1639323455437445e18, 1.5228359159543204e18, 2.062541295277878e18, 1.7436874486120056e18, 1.6208389315809257e18, 1.8781497464650212e18, 1.676147365433443e18, 1.7426346432987604e18, 1.8391082425698647e18, 1.4702312533692465e18, 1.5789166515500308e18, 1.7028968910419535e18, 1.2779267000704916e18, 1.7506783408364314e18, 1.66171779634423e18, 1.8042551768833021e18]
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 2376.94 seconds
+Compute duration  = 2376.94 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters               mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol            Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max             0.0592    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+      Klysis             0.0856    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+       Kdgln             0.0065    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+     Ylacglc             1.2909    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+     Yammgln             0.8370    0.0000     0.0000    0.0000       NaN       NaN           NaN
+      lambda             0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+          ss   18225351971.0098    0.0000     0.0000    0.0000    6.5578    0.9997        0.0028
+
+Quantiles
+  parameters               2.5%              25.0%              50.0%              75.0%              97.5%
+      Symbol            Float64            Float64            Float64            Float64            Float64
+
+      mu_max             0.0592             0.0592             0.0592             0.0592             0.0592
+      Klysis             0.0856             0.0856             0.0856             0.0856             0.0856
+       Kdgln             0.0065             0.0065             0.0065             0.0065             0.0065
+     Ylacglc             1.2909             1.2909             1.2909             1.2909             1.2909
+     Yammgln             0.8370             0.8370             0.8370             0.8370             0.8370
+      lambda             0.0000             0.0000             0.0000             0.0000             0.0000
+          ss   18225351971.0097   18225351971.0097   18225351971.0097   18225351971.0097   18225351971.0097
+
+params_dist_bbf2_104_1 Aug 2024 10:8:17
+time total: 2376.9441640377045
+chain_bbf2_104_time_2376.9441640377045.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 56.63 seconds
+Compute duration  = 56.63 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    994.8791    1.0001       17.5671
+      Klysis                    0.0564                   0.0035                 0.0001                 0.0001   1090.7048    0.9998       19.2592
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    825.7942    1.0001       14.5815
+     Ylacglc                    0.6192                   0.3865                 0.0071                 0.0125    976.9954    1.0006       17.2513
+     Yammgln                    0.3236                   0.0718                 0.0013                 0.0022    893.7767    1.0001       15.7819
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1876.8190    0.9998       33.1400
+          ss   211216514512193504.0000   14944660086848384.0000   272850914793799.1562   349913054301748.1250   1536.6422    0.9998       27.1333
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0502                    0.0538                    0.0563                    0.0588                    0.0632
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0117
+     Ylacglc                    0.1216                    0.3069                    0.5303                    0.8639                    1.5343
+     Yammgln                    0.1916                    0.2713                    0.3209                    0.3750                    0.4657
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184538793331447680.0000   200247636499711232.0000   210683107506761088.0000   220991318889330880.0000   242564433716189760.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:358
+time total: 56.63287305831909
+chain_bbf2_104_time_56.63287305831909.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 43.5 seconds
+Compute duration  = 43.5 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    855.0486    1.0012       19.6563
+      Klysis                    0.0563                   0.0035                 0.0001                 0.0001   1064.5602    1.0001       24.4726
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    844.1426    0.9997       19.4056
+     Ylacglc                    0.6097                   0.3857                 0.0070                 0.0131    845.1317    1.0005       19.4283
+     Yammgln                    0.3192                   0.0679                 0.0012                 0.0021    901.0724    0.9997       20.7143
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1316.1613    0.9999       30.2566
+          ss   211113030453353088.0000   15435982093881436.0000   281821186335489.6250   445737273125275.3125    842.3482    1.0039       19.3643
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0571                    0.0581
+      Klysis                    0.0498                    0.0536                    0.0562                    0.0588                    0.0628
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1185                    0.2961                    0.5315                    0.8489                    1.5176
+     Yammgln                    0.1954                    0.2701                    0.3173                    0.3684                    0.4530
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   182137870674503840.0000   200887970953761216.0000   209941427269897856.0000   220976448833142976.0000   241925347043285184.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:796
+time total: 43.500447034835815
+chain_bbf2_104_time_43.500447034835815.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 77.41 seconds
+Compute duration  = 77.41 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1077.6282    1.0000       13.9203
+      Klysis                    0.0562                   0.0036                 0.0001                 0.0001   1144.7357    1.0020       14.7872
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    843.4085    1.0001       10.8948
+     Ylacglc                    0.6342                   0.3996                 0.0073                 0.0135    933.2208    0.9998       12.0549
+     Yammgln                    0.3200                   0.0697                 0.0013                 0.0023    936.1076    0.9998       12.0922
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   2393.9532    0.9997       30.9240
+          ss   210611408052767072.0000   14501928548978322.0000   264767779786786.3438   394815221692406.2500   1465.9289    1.0039       18.9362
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0563                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0498                    0.0536                    0.0561                    0.0589                    0.0632
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1213                    0.3096                    0.5412                    0.8850                    1.5449
+     Yammgln                    0.1977                    0.2679                    0.3181                    0.3679                    0.4602
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   185545904139537888.0000   200560464149264736.0000   209334900732699264.0000   219503748751320384.0000   240725360448248192.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:7
+time total: 77.41359186172485
+chain_bbf2_104_time_77.41359186172485.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 45.94 seconds
+Compute duration  = 45.94 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0568                   0.0006                 0.0000                 0.0000    652.9801    1.0007       14.2153
+      Klysis                    0.0562                   0.0035                 0.0001                 0.0001   1033.6986    1.0015       22.5035
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    686.0369    1.0009       14.9349
+     Ylacglc                    0.6369                   0.3852                 0.0070                 0.0166    651.3085    1.0001       14.1789
+     Yammgln                    0.3201                   0.0690                 0.0013                 0.0023    768.1759    0.9999       16.7231
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1328.7995    0.9997       28.9278
+          ss   211436531104879840.0000   14129315887214200.0000   257964834451444.5938   465926912675673.6250   1197.5245    1.0003       26.0700
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0496                    0.0537                    0.0561                    0.0587                    0.0630
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1208                    0.3196                    0.5730                    0.8951                    1.5033
+     Yammgln                    0.1962                    0.2697                    0.3166                    0.3689                    0.4570
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   186104558373795744.0000   201779626670196640.0000   210850222294283392.0000   220134574393211744.0000   241609924676703104.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:15
+time total: 45.93549299240112
+chain_bbf2_104_time_45.93549299240112.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 78.6 seconds
+Compute duration  = 78.6 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0006                 0.0000                 0.0000   1295.1670    1.0005       16.4782
+      Klysis                    0.0563                   0.0037                 0.0001                 0.0001    927.7002    1.0019       11.8030
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    770.3540    1.0002        9.8011
+     Ylacglc                    0.6124                   0.3811                 0.0070                 0.0109   1196.5969    1.0003       15.2241
+     Yammgln                    0.3198                   0.0715                 0.0013                 0.0025    887.8601    1.0000       11.2961
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   2044.3625    1.0015       26.0100
+          ss   210849229514267264.0000   14589290698390368.0000   266362787116956.7812   303740648806802.9375   1897.3160    0.9997       24.1392
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0571                    0.0581
+      Klysis                    0.0496                    0.0537                    0.0562                    0.0589                    0.0633
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1195                    0.3020                    0.5268                    0.8530                    1.4921
+     Yammgln                    0.1917                    0.2664                    0.3172                    0.3709                    0.4608
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184480102600790624.0000   200702848951482784.0000   209872835541867520.0000   219982531158927552.0000   242170222887299264.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:221
+time total: 78.59923911094666
+chain_bbf2_104_time_78.59923911094666.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 77.66 seconds
+Compute duration  = 77.66 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0006                 0.0000                 0.0000   1217.2389    1.0014       15.6744
+      Klysis                    0.0560                   0.0037                 0.0001                 0.0001   1088.7416    1.0005       14.0197
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    952.9314    0.9997       12.2709
+     Ylacglc                    0.6185                   0.3655                 0.0067                 0.0098   1267.5907    1.0028       16.3227
+     Yammgln                    0.3145                   0.0696                 0.0013                 0.0022   1033.6043    1.0003       13.3097
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1986.6867    0.9998       25.5825
+          ss   210796777686929728.0000   14855352338192646.0000   271220385843840.8438   365952429544894.9375   1828.6472    0.9997       23.5474
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0572                    0.0580
+      Klysis                    0.0495                    0.0531                    0.0559                    0.0587                    0.0631
+       Kdgln                    0.0095                    0.0102                    0.0106                    0.0110                    0.0117
+     Ylacglc                    0.1276                    0.3166                    0.5573                    0.8686                    1.4253
+     Yammgln                    0.1905                    0.2630                    0.3126                    0.3635                    0.4513
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184570160562929312.0000   200070136623305760.0000   210339761420105216.0000   220396160085215328.0000   241268409220646592.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:398
+time total: 77.65873289108276
+chain_bbf2_104_time_77.65873289108276.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 64.1 seconds
+Compute duration  = 64.1 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1022.2474    0.9997       15.9484
+      Klysis                    0.0564                   0.0035                 0.0001                 0.0001   1075.1437    1.0029       16.7737
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    874.1249    1.0025       13.6375
+     Ylacglc                    0.6232                   0.3835                 0.0070                 0.0111    943.9197    1.0000       14.7264
+     Yammgln                    0.3240                   0.0691                 0.0013                 0.0024    901.2302    1.0015       14.0604
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1923.4035    0.9998       30.0077
+          ss   211021061703220928.0000   15189859573924282.0000   277327624465804.7188   380093255481315.8750   1494.9334    1.0005       23.3230
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0571                    0.0582
+      Klysis                    0.0498                    0.0538                    0.0564                    0.0589                    0.0632
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1212                    0.3109                    0.5506                    0.8529                    1.5309
+     Yammgln                    0.1996                    0.2724                    0.3234                    0.3720                    0.4633
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183691728757178400.0000   200737768754385888.0000   209790670778078656.0000   220392575619611968.0000   244422243461881984.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:031
+time total: 64.09722089767456
+chain_bbf2_104_time_64.09722089767456.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 58.52 seconds
+Compute duration  = 58.52 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1089.3849    1.0008       18.6150
+      Klysis                    0.0560                   0.0036                 0.0001                 0.0001   1327.7477    1.0007       22.6880
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    999.9563    1.0028       17.0868
+     Ylacglc                    0.6268                   0.3897                 0.0071                 0.0105    977.3537    1.0006       16.7006
+     Yammgln                    0.3165                   0.0726                 0.0013                 0.0020   1044.2890    1.0016       17.8444
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1923.1695    0.9999       32.8623
+          ss   211318512538828064.0000   15083719161445430.0000   275389774526552.3750   362011339200765.3750   1828.8510    1.0003       31.2507
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0495                    0.0534                    0.0560                    0.0586                    0.0629
+       Kdgln                    0.0094                    0.0101                    0.0106                    0.0110                    0.0117
+     Ylacglc                    0.1201                    0.3057                    0.5510                    0.8780                    1.5175
+     Yammgln                    0.1916                    0.2625                    0.3099                    0.3699                    0.4641
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183535261885251424.0000   200659081127431904.0000   210854947153244480.0000   220958628427418912.0000   242284526634390880.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:094
+time total: 58.52131390571594
+chain_bbf2_104_time_58.52131390571594.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 81.82 seconds
+Compute duration  = 81.82 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1277.7793    0.9999       15.6173
+      Klysis                    0.0561                   0.0036                 0.0001                 0.0001   1048.9607    1.0023       12.8207
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    892.4438    1.0048       10.9077
+     Ylacglc                    0.6380                   0.3878                 0.0071                 0.0113   1121.2550    0.9997       13.7043
+     Yammgln                    0.3150                   0.0712                 0.0013                 0.0023    994.7924    1.0034       12.1586
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1951.1792    1.0008       23.8478
+          ss   211016477850696032.0000   15112694675054214.0000   275918792607180.0000   410828147768331.6875   1738.9159    0.9997       21.2535
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0563                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0495                    0.0534                    0.0561                    0.0587                    0.0633
+       Kdgln                    0.0095                    0.0101                    0.0106                    0.0110                    0.0117
+     Ylacglc                    0.1170                    0.3260                    0.5663                    0.8786                    1.5554
+     Yammgln                    0.1911                    0.2609                    0.3106                    0.3647                    0.4575
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183750908488504704.0000   200244894405774016.0000   210004185316799296.0000   220753288982421632.0000   242209003698402144.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:443
+time total: 81.81847214698792
+chain_bbf2_104_time_81.81847214698792.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 6.06 seconds
+Compute duration  = 6.06 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters           mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol        Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max         0.0561    0.0000     0.0000    0.0000    6.5578    0.9997        1.0829
+      Klysis         0.0794    0.0000     0.0000    0.0000       NaN       NaN           NaN
+       Kdgln         0.0103    0.0000     0.0000    0.0000    6.5578    0.9997        1.0829
+     Ylacglc         0.5702    0.0000     0.0000    0.0000       NaN       NaN           NaN
+     Yammgln         0.2241    0.0000     0.0000    0.0000    6.5578    0.9997        1.0829
+      lambda         0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.0829
+          ss   7118606.3982    0.0000     0.0000    0.0000    6.5578    0.9997        1.0829
+
+Quantiles
+  parameters           2.5%          25.0%          50.0%          75.0%          97.5%
+      Symbol        Float64        Float64        Float64        Float64        Float64
+
+      mu_max         0.0561         0.0561         0.0561         0.0561         0.0561
+      Klysis         0.0794         0.0794         0.0794         0.0794         0.0794
+       Kdgln         0.0103         0.0103         0.0103         0.0103         0.0103
+     Ylacglc         0.5702         0.5702         0.5702         0.5702         0.5702
+     Yammgln         0.2241         0.2241         0.2241         0.2241         0.2241
+      lambda         0.0000         0.0000         0.0000         0.0000         0.0000
+          ss   7118606.3982   7118606.3982   7118606.3982   7118606.3982   7118606.3982
+
+params_dist_bbf2_104_1 Aug 2024 10:8:025
+time total: 6.056584119796753
+chain_bbf2_104_time_6.056584119796753.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 51.06 seconds
+Compute duration  = 51.06 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1071.8876    0.9999       20.9935
+      Klysis                    0.0563                   0.0036                 0.0001                 0.0001   1186.3144    1.0011       23.2346
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    890.3957    1.0000       17.4389
+     Ylacglc                    0.6049                   0.3807                 0.0070                 0.0123   1052.8459    0.9999       20.6206
+     Yammgln                    0.3214                   0.0711                 0.0013                 0.0020    976.2439    0.9997       19.1203
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1309.6765    0.9998       25.6508
+          ss   211449233479419264.0000   14789929319184978.0000   270025930400821.2500   334147000231358.3750   1233.6820    0.9997       24.1624
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0571                    0.0581
+      Klysis                    0.0498                    0.0537                    0.0563                    0.0589                    0.0630
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0117
+     Ylacglc                    0.1187                    0.2919                    0.5290                    0.8487                    1.4860
+     Yammgln                    0.1935                    0.2703                    0.3162                    0.3706                    0.4648
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184953463072707808.0000   200531482663110528.0000   210688323165562880.0000   221126825544925568.0000   244218571433494880.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:259
+time total: 51.05784296989441
+chain_bbf2_104_time_51.05784296989441.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 6.04 seconds
+Compute duration  = 6.04 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters        mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol     Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max      0.0603    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+      Klysis      0.0598    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+       Kdgln      0.0070    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+     Ylacglc      0.9572    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+     Yammgln      1.0951    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+      lambda      0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+          ss   1177.3965    0.0000     0.0000    0.0000    6.5578    0.9997        1.0863
+
+Quantiles
+  parameters        2.5%       25.0%       50.0%       75.0%       97.5%
+      Symbol     Float64     Float64     Float64     Float64     Float64
+
+      mu_max      0.0603      0.0603      0.0603      0.0603      0.0603
+      Klysis      0.0598      0.0598      0.0598      0.0598      0.0598
+       Kdgln      0.0070      0.0070      0.0070      0.0070      0.0070
+     Ylacglc      0.9572      0.9572      0.9572      0.9572      0.9572
+     Yammgln      1.0951      1.0951      1.0951      1.0951      1.0951
+      lambda      0.0000      0.0000      0.0000      0.0000      0.0000
+          ss   1177.3965   1177.3965   1177.3965   1177.3965   1177.3965
+
+params_dist_bbf2_104_1 Aug 2024 10:8:808
+time total: 6.037544012069702
+chain_bbf2_104_time_6.037544012069702.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 52.44 seconds
+Compute duration  = 52.44 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    953.8822    0.9997       18.1889
+      Klysis                    0.0563                   0.0036                 0.0001                 0.0001   1222.5185    1.0002       23.3114
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    943.7224    1.0022       17.9952
+     Ylacglc                    0.6257                   0.3911                 0.0071                 0.0125    874.2093    1.0003       16.6697
+     Yammgln                    0.3229                   0.0700                 0.0013                 0.0022   1021.9723    1.0018       19.4873
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1978.2684    0.9997       37.7223
+          ss   210435879152475872.0000   14957094540600102.0000   273077935820801.5312   406230890621862.5000   1387.2925    1.0030       26.4533
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0498                    0.0537                    0.0562                    0.0589                    0.0632
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0117
+     Ylacglc                    0.1158                    0.3083                    0.5383                    0.8913                    1.5123
+     Yammgln                    0.1950                    0.2729                    0.3200                    0.3728                    0.4582
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183032125987621120.0000   200289910683765664.0000   209116541148970240.0000   220168105626649472.0000   242004473529305344.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:433
+time total: 52.442368030548096
+chain_bbf2_104_time_52.442368030548096.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 78.34 seconds
+Compute duration  = 78.34 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0006                 0.0000                 0.0000   1069.1753    1.0006       13.6475
+      Klysis                    0.0562                   0.0035                 0.0001                 0.0001   1058.3709    0.9998       13.5096
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    715.5674    1.0009        9.1339
+     Ylacglc                    0.6256                   0.3732                 0.0068                 0.0101   1057.8898    1.0007       13.5035
+     Yammgln                    0.3168                   0.0697                 0.0013                 0.0023    786.3734    1.0007       10.0377
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   2079.4825    1.0002       26.5436
+          ss   211384826995131008.0000   14855939415907640.0000   271231104367424.5312   389169020919964.5625   1386.4697    1.0002       17.6977
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0571                    0.0581
+      Klysis                    0.0497                    0.0536                    0.0561                    0.0587                    0.0633
+       Kdgln                    0.0094                    0.0101                    0.0106                    0.0110                    0.0116
+     Ylacglc                    0.1214                    0.3229                    0.5687                    0.8551                    1.4927
+     Yammgln                    0.1948                    0.2667                    0.3125                    0.3647                    0.4638
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184382403300732640.0000   201059818746216736.0000   210544700298911616.0000   220823667592627328.0000   241819542085249088.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:308
+time total: 78.34246778488159
+chain_bbf2_104_time_78.34246778488159.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 55.01 seconds
+Compute duration  = 55.01 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0006                 0.0000                 0.0000   1034.9324    1.0019       18.8125
+      Klysis                    0.0563                   0.0037                 0.0001                 0.0001   1100.2463    0.9998       19.9998
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    859.6680    0.9998       15.6266
+     Ylacglc                    0.6216                   0.3757                 0.0069                 0.0113    992.6540    1.0021       18.0440
+     Yammgln                    0.3205                   0.0710                 0.0013                 0.0022    996.0427    0.9999       18.1056
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1996.9420    0.9997       36.2995
+          ss   211248943025276672.0000   14756614405148920.0000   269417686070191.4062   355440243797433.7500   1607.0030    0.9997       29.2113
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0498                    0.0534                    0.0561                    0.0590                    0.0637
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0116
+     Ylacglc                    0.1258                    0.3121                    0.5447                    0.8675                    1.4520
+     Yammgln                    0.1931                    0.2677                    0.3194                    0.3697                    0.4642
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184896856135157024.0000   201255517124398592.0000   210282443758336192.0000   220264486872410400.0000   243780714889137632.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:863
+time total: 55.01359796524048
+chain_bbf2_104_time_55.01359796524048.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 78.11 seconds
+Compute duration  = 78.11 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    756.6259    0.9998        9.6872
+      Klysis                    0.0561                   0.0036                 0.0001                 0.0001    881.3128    0.9998       11.2835
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    626.7175    1.0011        8.0239
+     Ylacglc                    0.6385                   0.4013                 0.0073                 0.0138    764.9449    1.0002        9.7937
+     Yammgln                    0.3148                   0.0700                 0.0013                 0.0028    680.0078    1.0011        8.7062
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1400.5010    1.0003       17.9308
+          ss   211324091976992864.0000   14753080721786572.0000   269353170133903.4375   470229855138397.9375    908.7034    0.9998       11.6342
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0496                    0.0535                    0.0560                    0.0586                    0.0632
+       Kdgln                    0.0095                    0.0102                    0.0106                    0.0110                    0.0117
+     Ylacglc                    0.1178                    0.3053                    0.5578                    0.9024                    1.5845
+     Yammgln                    0.1925                    0.2626                    0.3099                    0.3635                    0.4575
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184793522844233152.0000   201413491262487232.0000   210153967488254400.0000   220277227970914880.0000   244250146562790656.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:488
+time total: 78.10640692710876
+chain_bbf2_104_time_78.10640692710876.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 73.64 seconds
+Compute duration  = 73.64 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    751.7250    1.0008       10.2076
+      Klysis                    0.0563                   0.0036                 0.0001                 0.0001    952.6694    0.9998       12.9361
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    639.3737    0.9997        8.6820
+     Ylacglc                    0.6140                   0.3809                 0.0070                 0.0141    684.7039    1.0020        9.2975
+     Yammgln                    0.3207                   0.0704                 0.0013                 0.0028    746.1809    0.9997       10.1323
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1168.4879    0.9998       15.8667
+          ss   211653170431476448.0000   14582374826441484.0000   266236521147916.0938   327411158884333.4375   1614.2136    1.0017       21.9191
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0498                    0.0535                    0.0562                    0.0590                    0.0633
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0117
+     Ylacglc                    0.1175                    0.2976                    0.5408                    0.8659                    1.4956
+     Yammgln                    0.1904                    0.2699                    0.3206                    0.3700                    0.4594
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184897072863506624.0000   201324860652494976.0000   211095969302896896.0000   221177851863903744.0000   241568055513661312.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:622
+time total: 73.64474606513977
+chain_bbf2_104_time_73.64474606513977.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 39.82 seconds
+Compute duration  = 39.82 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    681.3053    1.0008       17.1083
+      Klysis                    0.0563                   0.0036                 0.0001                 0.0001    749.8433    1.0020       18.8294
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    585.6828    0.9997       14.7072
+     Ylacglc                    0.6247                   0.3821                 0.0070                 0.0135    657.5218    1.0020       16.5111
+     Yammgln                    0.3212                   0.0716                 0.0013                 0.0029    662.4201    1.0000       16.6341
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1062.6531    1.0016       26.6844
+          ss   211285303898073152.0000   14968218841420472.0000   273281036837327.8750   427084814671027.2500   1081.7836    0.9997       27.1648
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0571                    0.0582
+      Klysis                    0.0497                    0.0536                    0.0561                    0.0589                    0.0633
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0117
+     Ylacglc                    0.1119                    0.3137                    0.5646                    0.8667                    1.5286
+     Yammgln                    0.1865                    0.2694                    0.3194                    0.3705                    0.4653
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183893952222465248.0000   200822498711984352.0000   210366607055695648.0000   220755634972827936.0000   243218400313095136.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:934
+time total: 39.82341814041138
+chain_bbf2_104_time_39.82341814041138.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 6.07 seconds
+Compute duration  = 6.07 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters          mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol       Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max        0.0594    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+      Klysis        0.0621    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+       Kdgln        0.0081    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+     Ylacglc        1.6470    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+     Yammgln        0.6825    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+      lambda        0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+          ss   805577.5263    0.0000     0.0000    0.0000    6.5578    0.9997        1.0802
+
+Quantiles
+  parameters          2.5%         25.0%         50.0%         75.0%         97.5%
+      Symbol       Float64       Float64       Float64       Float64       Float64
+
+      mu_max        0.0594        0.0594        0.0594        0.0594        0.0594
+      Klysis        0.0621        0.0621        0.0621        0.0621        0.0621
+       Kdgln        0.0081        0.0081        0.0081        0.0081        0.0081
+     Ylacglc        1.6470        1.6470        1.6470        1.6470        1.6470
+     Yammgln        0.6825        0.6825        0.6825        0.6825        0.6825
+      lambda        0.0000        0.0000        0.0000        0.0000        0.0000
+          ss   805577.5263   805577.5263   805577.5263   805577.5263   805577.5263
+
+params_dist_bbf2_104_1 Aug 2024 10:8:471
+time total: 6.071426868438721
+chain_bbf2_104_time_6.071426868438721.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.8 seconds
+Compute duration  = 5.8 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters        mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol     Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max      0.0594    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+      Klysis      0.0560    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+       Kdgln      0.0076    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+     Ylacglc      0.7653    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+     Yammgln      0.9685    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+      lambda      0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+          ss   3771.6469    0.0000     0.0000    0.0000    6.5578    0.9997        1.1297
+
+Quantiles
+  parameters        2.5%       25.0%       50.0%       75.0%       97.5%
+      Symbol     Float64     Float64     Float64     Float64     Float64
+
+      mu_max      0.0594      0.0594      0.0594      0.0594      0.0594
+      Klysis      0.0560      0.0560      0.0560      0.0560      0.0560
+       Kdgln      0.0076      0.0076      0.0076      0.0076      0.0076
+     Ylacglc      0.7653      0.7653      0.7653      0.7653      0.7653
+     Yammgln      0.9685      0.9685      0.9685      0.9685      0.9685
+      lambda      0.0000      0.0000      0.0000      0.0000      0.0000
+          ss   3771.6469   3771.6469   3771.6469   3771.6469   3771.6469
+
+params_dist_bbf2_104_1 Aug 2024 10:8:451
+time total: 5.8053998947143555
+chain_bbf2_104_time_5.8053998947143555.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 49.18 seconds
+Compute duration  = 49.18 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1056.9022    1.0024       21.4883
+      Klysis                    0.0561                   0.0035                 0.0001                 0.0001   1085.7554    0.9997       22.0749
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    706.4545    0.9997       14.3632
+     Ylacglc                    0.6185                   0.3782                 0.0069                 0.0105   1034.9147    1.0019       21.0413
+     Yammgln                    0.3189                   0.0701                 0.0013                 0.0024    707.7955    0.9997       14.3905
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1516.9485    0.9997       30.8417
+          ss   211814907745485248.0000   14797829789225026.0000   270170172589348.8125   360818743415688.2500   1325.2272    1.0001       26.9437
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0497                    0.0536                    0.0560                    0.0586                    0.0631
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1226                    0.3097                    0.5426                    0.8722                    1.4773
+     Yammgln                    0.1921                    0.2664                    0.3179                    0.3670                    0.4605
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184490234081745216.0000   201584372692130656.0000   210926583767548736.0000   221392719769038048.0000   242159747327391584.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:851
+time total: 49.184640884399414
+chain_bbf2_104_time_49.184640884399414.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.67 seconds
+Compute duration  = 5.67 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters           mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol        Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max         0.0591    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+      Klysis         0.0626    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+       Kdgln         0.0082    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+     Ylacglc         1.4894    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+     Yammgln         0.6715    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+      lambda         0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+          ss   1995705.0049    0.0000     0.0000    0.0000    6.5578    0.9997        1.1574
+
+Quantiles
+  parameters           2.5%          25.0%          50.0%          75.0%          97.5%
+      Symbol        Float64        Float64        Float64        Float64        Float64
+
+      mu_max         0.0591         0.0591         0.0591         0.0591         0.0591
+      Klysis         0.0626         0.0626         0.0626         0.0626         0.0626
+       Kdgln         0.0082         0.0082         0.0082         0.0082         0.0082
+     Ylacglc         1.4894         1.4894         1.4894         1.4894         1.4894
+     Yammgln         0.6715         0.6715         0.6715         0.6715         0.6715
+      lambda         0.0000         0.0000         0.0000         0.0000         0.0000
+          ss   1995705.0049   1995705.0049   1995705.0049   1995705.0049   1995705.0049
+
+params_dist_bbf2_104_1 Aug 2024 10:8:996
+time total: 5.665734052658081
+chain_bbf2_104_time_5.665734052658081.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 52.1 seconds
+Compute duration  = 52.1 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1072.5682    1.0002       20.5859
+      Klysis                    0.0563                   0.0036                 0.0001                 0.0001   1170.8293    1.0020       22.4719
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    841.3923    1.0022       16.1489
+     Ylacglc                    0.6376                   0.3859                 0.0070                 0.0127   1103.2432    0.9998       21.1747
+     Yammgln                    0.3179                   0.0709                 0.0013                 0.0020    917.7317    1.0022       17.6141
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1975.2871    0.9997       37.9119
+          ss   211161545441356256.0000   14839820644599422.0000   270936817212598.5938   357782855830676.2500   1424.1905    1.0016       27.3347
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0563                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0497                    0.0537                    0.0563                    0.0589                    0.0634
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1165                    0.3225                    0.5674                    0.8808                    1.5099
+     Yammgln                    0.1925                    0.2629                    0.3157                    0.3705                    0.4535
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   185371035262219648.0000   200672124247973600.0000   210050216608129120.0000   220291876777166464.0000   243205494901518112.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:274
+time total: 52.10188698768616
+chain_bbf2_104_time_52.10188698768616.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.88 seconds
+Compute duration  = 5.88 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters           mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol        Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max         0.0578    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+      Klysis         0.0706    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+       Kdgln         0.0098    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+     Ylacglc         1.6768    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+     Yammgln         0.3234    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+      lambda         0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+          ss   5368235.3138    0.0000     0.0000    0.0000    6.5578    0.9997        1.1147
+
+Quantiles
+  parameters           2.5%          25.0%          50.0%          75.0%          97.5%
+      Symbol        Float64        Float64        Float64        Float64        Float64
+
+      mu_max         0.0578         0.0578         0.0578         0.0578         0.0578
+      Klysis         0.0706         0.0706         0.0706         0.0706         0.0706
+       Kdgln         0.0098         0.0098         0.0098         0.0098         0.0098
+     Ylacglc         1.6768         1.6768         1.6768         1.6768         1.6768
+     Yammgln         0.3234         0.3234         0.3234         0.3234         0.3234
+      lambda         0.0000         0.0000         0.0000         0.0000         0.0000
+          ss   5368235.3138   5368235.3138   5368235.3138   5368235.3138   5368235.3138
+
+params_dist_bbf2_104_1 Aug 2024 10:8:71
+time total: 5.882920026779175
+chain_bbf2_104_time_5.882920026779175.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 55.15 seconds
+Compute duration  = 55.15 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1150.1134    1.0010       20.8539
+      Klysis                    0.0562                   0.0036                 0.0001                 0.0001    928.5493    1.0023       16.8365
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    675.2050    1.0050       12.2428
+     Ylacglc                    0.6230                   0.3803                 0.0069                 0.0084   1081.1298    1.0000       19.6031
+     Yammgln                    0.3211                   0.0720                 0.0013                 0.0027    692.0403    1.0049       12.5481
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1590.3791    0.9998       28.8368
+          ss   211052237278621280.0000   14995468401796924.0000   273778543467337.2188   371791061864422.6250   1589.3871    1.0009       28.8188
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0495                    0.0536                    0.0561                    0.0587                    0.0635
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1162                    0.3167                    0.5592                    0.8629                    1.5053
+     Yammgln                    0.1896                    0.2658                    0.3189                    0.3746                    0.4599
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   185118692922671200.0000   200542824153677344.0000   210287222657350208.0000   220328337946267456.0000   243509894937296928.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:038
+time total: 55.15031099319458
+chain_bbf2_104_time_55.15031099319458.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 63.15 seconds
+Compute duration  = 63.15 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    854.2923    1.0039       13.5276
+      Klysis                    0.0561                   0.0036                 0.0001                 0.0001    949.5126    0.9997       15.0354
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    671.9089    0.9998       10.6396
+     Ylacglc                    0.6138                   0.3861                 0.0070                 0.0138    859.8115    1.0023       13.6150
+     Yammgln                    0.3188                   0.0712                 0.0013                 0.0025    730.9799    0.9998       11.5749
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1632.0666    1.0000       25.8435
+          ss   211333620071862816.0000   15184981299540412.0000   277238559768413.1875   374308297477806.0625   1512.1084    0.9997       23.9440
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0566                    0.0572                    0.0581
+      Klysis                    0.0496                    0.0534                    0.0560                    0.0587                    0.0632
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1173                    0.2942                    0.5344                    0.8600                    1.5231
+     Yammgln                    0.1900                    0.2645                    0.3183                    0.3690                    0.4618
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184428856848648064.0000   201192464689926016.0000   210623097287586848.0000   220678794002080512.0000   244327832949967936.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:687
+time total: 63.151681900024414
+chain_bbf2_104_time_63.151681900024414.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 42.72 seconds
+Compute duration  = 42.72 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    763.1092    0.9997       17.8643
+      Klysis                    0.0564                   0.0036                 0.0001                 0.0001    770.4875    0.9999       18.0370
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    545.8114    1.0005       12.7774
+     Ylacglc                    0.6259                   0.3910                 0.0071                 0.0152    695.2746    1.0004       16.2763
+     Yammgln                    0.3228                   0.0702                 0.0013                 0.0028    607.4992    1.0009       14.2215
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1252.6204    1.0010       29.3237
+          ss   211323588170680192.0000   15174350517146598.0000   277044469124379.1562   432097206989834.1875    999.3084    0.9997       23.3937
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0563                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0499                    0.0536                    0.0565                    0.0591                    0.0632
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1158                    0.3058                    0.5448                    0.8798                    1.4995
+     Yammgln                    0.2023                    0.2692                    0.3195                    0.3745                    0.4608
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184621309101173312.0000   200757252526534272.0000   210430408582488256.0000   220879190003446464.0000   243852857975313280.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:935
+time total: 42.71650695800781
+chain_bbf2_104_time_42.71650695800781.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.67 seconds
+Compute duration  = 5.67 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters           mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol        Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max         0.0588    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+      Klysis         0.0555    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+       Kdgln         0.0077    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+     Ylacglc         0.3672    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+     Yammgln         0.9531    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+      lambda         0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+          ss   6556730.5741    0.0000     0.0000    0.0000    6.5578    0.9997        1.1568
+
+Quantiles
+  parameters           2.5%          25.0%          50.0%          75.0%          97.5%
+      Symbol        Float64        Float64        Float64        Float64        Float64
+
+      mu_max         0.0588         0.0588         0.0588         0.0588         0.0588
+      Klysis         0.0555         0.0555         0.0555         0.0555         0.0555
+       Kdgln         0.0077         0.0077         0.0077         0.0077         0.0077
+     Ylacglc         0.3672         0.3672         0.3672         0.3672         0.3672
+     Yammgln         0.9531         0.9531         0.9531         0.9531         0.9531
+      lambda         0.0000         0.0000         0.0000         0.0000         0.0000
+          ss   6556730.5741   6556730.5741   6556730.5741   6556730.5741   6556730.5741
+
+params_dist_bbf2_104_1 Aug 2024 10:8:064
+time total: 5.669175863265991
+chain_bbf2_104_time_5.669175863265991.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 52.12 seconds
+Compute duration  = 52.12 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    631.7648    1.0011       12.1211
+      Klysis                    0.0562                   0.0036                 0.0001                 0.0001   1001.6601    0.9998       19.2180
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000    766.4660    0.9999       14.7055
+     Ylacglc                    0.6250                   0.3846                 0.0070                 0.0136    724.2748    1.0000       13.8960
+     Yammgln                    0.3166                   0.0662                 0.0012                 0.0022    812.3664    0.9997       15.5862
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1822.0246    1.0002       34.9576
+          ss   210442657033886208.0000   14828422700593132.0000   270728720177884.4375   347692834493720.2500   1409.3293    1.0019       27.0396
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0496                    0.0536                    0.0561                    0.0589                    0.0633
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1196                    0.3137                    0.5494                    0.8639                    1.5195
+     Yammgln                    0.1915                    0.2691                    0.3171                    0.3615                    0.4482
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183670504848827264.0000   200004768863731200.0000   209810748816578624.0000   219938514597047360.0000   240784557488475392.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:361
+time total: 52.12093997001648
+chain_bbf2_104_time_52.12093997001648.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.72 seconds
+Compute duration  = 5.72 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters       mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol    Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max     0.0573    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+      Klysis     0.0662    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+       Kdgln     0.0080    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+     Ylacglc     0.3923    0.0000     0.0000    0.0000       NaN       NaN           NaN
+     Yammgln     0.6783    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+      lambda     0.0000    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+          ss   377.1592    0.0000     0.0000    0.0000    6.5578    0.9997        1.1475
+
+Quantiles
+  parameters       2.5%      25.0%      50.0%      75.0%      97.5%
+      Symbol    Float64    Float64    Float64    Float64    Float64
+
+      mu_max     0.0573     0.0573     0.0573     0.0573     0.0573
+      Klysis     0.0662     0.0662     0.0662     0.0662     0.0662
+       Kdgln     0.0080     0.0080     0.0080     0.0080     0.0080
+     Ylacglc     0.3923     0.3923     0.3923     0.3923     0.3923
+     Yammgln     0.6783     0.6783     0.6783     0.6783     0.6783
+      lambda     0.0000     0.0000     0.0000     0.0000     0.0000
+          ss   377.1592   377.1592   377.1592   377.1592   377.1592
+
+params_dist_bbf2_104_1 Aug 2024 10:8:569
+time total: 5.7145209312438965
+chain_bbf2_104_time_5.7145209312438965.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 61.06 seconds
+Compute duration  = 61.06 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1029.0166    0.9998       16.8520
+      Klysis                    0.0562                   0.0036                 0.0001                 0.0001    917.3639    0.9997       15.0235
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    568.9772    0.9998        9.3180
+     Ylacglc                    0.6384                   0.3887                 0.0071                 0.0112   1082.0571    1.0000       17.7206
+     Yammgln                    0.3152                   0.0717                 0.0013                 0.0028    687.8435    0.9998       11.2647
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1556.6745    1.0000       25.4933
+          ss   211649344267880704.0000   15500407126188818.0000   282997421117581.3750   401039488989497.3750   1343.9834    0.9997       22.0101
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0572                    0.0582
+      Klysis                    0.0497                    0.0535                    0.0562                    0.0587                    0.0631
+       Kdgln                    0.0094                    0.0101                    0.0106                    0.0110                    0.0117
+     Ylacglc                    0.1169                    0.3215                    0.5655                    0.8923                    1.5309
+     Yammgln                    0.1889                    0.2609                    0.3116                    0.3668                    0.4563
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   183811935864879392.0000   200779638047674144.0000   210682406449427072.0000   221157434701999296.0000   244582915228438144.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:804
+time total: 61.062068939208984
+chain_bbf2_104_time_61.062068939208984.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 81.83 seconds
+Compute duration  = 81.83 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000    805.6618    0.9999        9.8457
+      Klysis                    0.0561                   0.0036                 0.0001                 0.0001   1043.7686    0.9997       12.7555
+       Kdgln                    0.0106                   0.0006                 0.0000                 0.0000    713.6014    0.9997        8.7206
+     Ylacglc                    0.6260                   0.3877                 0.0071                 0.0155    709.6529    0.9998        8.6724
+     Yammgln                    0.3168                   0.0704                 0.0013                 0.0024    797.3571    0.9998        9.7442
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   1574.4023    0.9999       19.2402
+          ss   211198364182129920.0000   15156345970853056.0000   276715752586291.8750   380438538140032.6250   1385.3387    0.9997       16.9297
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0556                    0.0562                    0.0567                    0.0571                    0.0582
+      Klysis                    0.0494                    0.0534                    0.0560                    0.0587                    0.0631
+       Kdgln                    0.0095                    0.0101                    0.0105                    0.0110                    0.0117
+     Ylacglc                    0.1225                    0.3089                    0.5507                    0.8674                    1.5560
+     Yammgln                    0.1907                    0.2645                    0.3142                    0.3682                    0.4581
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184127313530170752.0000   200589434104566528.0000   209934999129108256.0000   220599479516008736.0000   243584327212413568.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:129
+time total: 81.8297791481018
+chain_bbf2_104_time_81.8297791481018.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 75.81 seconds
+Compute duration  = 75.81 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters                      mean                      std               naive_se                   mcse         ess      rhat   ess_per_sec
+      Symbol                   Float64                  Float64                Float64                Float64     Float64   Float64       Float64
+
+      mu_max                    0.0567                   0.0007                 0.0000                 0.0000   1350.5051    1.0015       17.8134
+      Klysis                    0.0564                   0.0036                 0.0001                 0.0001   1638.8238    0.9998       21.6164
+       Kdgln                    0.0105                   0.0006                 0.0000                 0.0000   1263.5159    0.9998       16.6660
+     Ylacglc                    0.6156                   0.3855                 0.0070                 0.0096   1278.9606    1.0019       16.8697
+     Yammgln                    0.3231                   0.0709                 0.0013                 0.0019   1378.4902    0.9999       18.1825
+      lambda                    0.0000                   0.0000                 0.0000                 0.0000   2318.3741    1.0005       30.5798
+          ss   211093601491250272.0000   14698877668566358.0000   268363562302757.9375   302032095582174.8750   2413.8492    1.0007       31.8391
+
+Quantiles
+  parameters                      2.5%                     25.0%                     50.0%                     75.0%                     97.5%
+      Symbol                   Float64                   Float64                   Float64                   Float64                   Float64
+
+      mu_max                    0.0555                    0.0562                    0.0567                    0.0572                    0.0581
+      Klysis                    0.0497                    0.0537                    0.0563                    0.0591                    0.0634
+       Kdgln                    0.0094                    0.0101                    0.0105                    0.0109                    0.0116
+     Ylacglc                    0.1169                    0.2982                    0.5448                    0.8577                    1.5128
+     Yammgln                    0.1928                    0.2708                    0.3213                    0.3737                    0.4661
+      lambda                    0.0000                    0.0000                    0.0000                    0.0000                    0.0000
+          ss   184722679311946432.0000   200962073137779840.0000   210360410219168960.0000   220395418369167744.0000   243669298116189248.0000
+
+params_dist_bbf2_104_1 Aug 2024 10:8:433
+time total: 75.81430792808533
+chain_bbf2_104_time_75.81430792808533.csv
+Chains MCMC chain (3000×19×1 Array{Float64, 3}):
+
+Iterations        = 1001:1:4000
+Number of chains  = 1
+Samples per chain = 3000
+Wall duration     = 5.97 seconds
+Compute duration  = 5.97 seconds
+parameters        = mu_max, Klysis, Kdgln, Ylacglc, Yammgln, lambda, ss
+internals         = lp, n_steps, is_accept, acceptance_rate, log_density, hamiltonian_energy, hamiltonian_energy_error, max_hamiltonian_energy_error, tree_depth, numerical_error, step_size, nom_step_size
+
+Summary Statistics
+  parameters          mean       std   naive_se      mcse       ess      rhat   ess_per_sec
+      Symbol       Float64   Float64    Float64   Float64   Float64   Float64       Float64
+
+      mu_max        0.0589    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+      Klysis        0.0843    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+       Kdgln        0.0068    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+     Ylacglc        1.2213    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+     Yammgln        0.7797    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+      lambda        0.0000    0.0000     0.0000    0.0000       NaN       NaN           NaN
+          ss   417831.6604    0.0000     0.0000    0.0000    6.5578    0.9997        1.0992
+
+Quantiles
+  parameters          2.5%         25.0%         50.0%         75.0%         97.5%
+      Symbol       Float64       Float64       Float64       Float64       Float64
+
+      mu_max        0.0589        0.0589        0.0589        0.0589        0.0589
+      Klysis        0.0843        0.0843        0.0843        0.0843        0.0843
+       Kdgln        0.0068        0.0068        0.0068        0.0068        0.0068
+     Ylacglc        1.2213        1.2213        1.2213        1.2213        1.2213
+     Yammgln        0.7797        0.7797        0.7797        0.7797        0.7797
+      lambda        0.0000        0.0000        0.0000        0.0000        0.0000
+          ss   417831.6604   417831.6604   417831.6604   417831.6604   417831.6604
+
+params_dist_bbf2_104_1 Aug 2024 10:8:949
+time total: 5.966326951980591
+chain_bbf2_104_time_5.966326951980591.csv
