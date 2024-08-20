@@ -6,4 +6,12 @@ Black-box optimization of a non-convex function often yields a single local solu
 ##
 This repository has the code and data related to experiments performed in the paper.
 
+### Synthetic Datasets 
+
+
+### Code used in task 1
+
+
+### Code used in task 2
+
 
