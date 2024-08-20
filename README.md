@@ -12,7 +12,7 @@ Black-box optimization of a non-convex function often yields a single local solu
 [Dataset for task 2](https://github.com/cristovaoiglesias/SBM/blob/main/empirical_tests/task2/dataset_task2.jl 'Dataset for task 2')
 
 
-### To execute the code related to the steps of task 1 run the following files:
+### To execute the code related to the steps of task 1, run the following files:
 
 #### run the code of [step1 folder](https://github.com/cristovaoiglesias/SBM/tree/main/empirical_tests/task1/step1)
 
@@ -55,14 +55,14 @@ julia CBM.jl
 ```
 
 
-### To execute code related to the steps of task 2 run the following file:
+### To execute code related to the steps of task 2, run the following file:
 
 ```
 julia SBM_building_BNN.jl
 ```
 
 
-### To reproduce the figures and table presented in the paper run the following files:
+### To reproduce the figures and table presented in the paper, run the following files:
 
 All the codes files below are in the [result_analysis folder](https://github.com/cristovaoiglesias/SBM/tree/main/empirical_tests/results_analysis)
 
